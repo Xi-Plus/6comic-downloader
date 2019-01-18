@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.6"
+script:
+  - python downloader.py 14237 1
+  - ls downloads
+  - python downloader.py 14951 1
+  - ls downloads
